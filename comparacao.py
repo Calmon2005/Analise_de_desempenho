@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df= pd.read_csv('Escola\\student_habits_performance.csv')
+df= pd.read_csv('student_habits_performance.csv')
 
 # Comparando médias: quem estuda >5h x <2h
 filtro_estudo_alto = df["study_hours_per_day"] > 5

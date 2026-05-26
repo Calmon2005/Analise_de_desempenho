@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df= pd.read_csv(r'Escola\\student_habits_performance.csv')
+df= pd.read_csv('student_habits_performance.csv')
 
 # Redes sociais: distribuicao geral (Hostograma)
 # x= "social_emdia_hours"
