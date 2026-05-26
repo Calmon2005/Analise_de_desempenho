@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df= pd.read_csv(r'completo\\student_habits_performance.csv')
+df= pd.read_csv(r'Escola\\student_habits_performance.csv')
 cols = [
     "study_hours_per_day",
     "social_media_hours",
