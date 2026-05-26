@@ -11,7 +11,7 @@ plt.title("Mais estudo -> maior a nota")
 plt.show()
 
 #Comparando meédias: quem, estuda >5h x <2h
-filtro_estudo_alto = df ["study_hours_per_day"] > 5
+filtro_estudo_alto = df ["study_hours_per_day"] >5
 filtro_estudo_baixo = df ["study_hours_per_day"] <2
 
 grupo_de_estudo_alto = df [filtro_estudo_alto]["exam_score"]
